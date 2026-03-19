@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "server",
+      "runtimeExecutable": "/Users/phillipkaraya/.nvm/versions/node/v25.5.0/bin/node",
+      "runtimeArgs": ["server/index.js"],
+      "port": 3200
+    },
+    {
+      "name": "client",
+      "runtimeExecutable": "/Users/phillipkaraya/.nvm/versions/node/v25.5.0/bin/npx",
+      "runtimeArgs": ["vite", "--port", "5173"],
+      "port": 5173
+    }
+  ]
+}
